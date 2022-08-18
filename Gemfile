@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'devise'
+gem 'omniauth-cognito-idp', github: 'mateuszwu/omniauth-cognito-idp'
+gem 'pry-rails'
